@@ -1,0 +1,7 @@
+__author__ = "Amane Katagiri"
+__contact__ = "amane@ama.ne.jp"
+__copyright__ = "Copyright (C) 2016 Amane Katagiri"
+__credits__ = ""
+__date__ = "2016-12-07"
+__license__ = "MIT License"
+__version__ = "0.1.0"

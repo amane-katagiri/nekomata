@@ -1,0 +1,5 @@
+["00:00:00:00:00:00"]
+handler = "SlackHandler"
+log_format_text = "(あー|うーん|なるほど)、(やっぱり)?これ百合(じゃないか|だと思う)な"
+["00:00:00:00:00:00".option]
+token = "YOUR/SLACK/TOKEN(Incoming WebHooks, https://api.slack.com/incoming-webhooks)"

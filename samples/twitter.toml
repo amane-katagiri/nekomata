@@ -1,0 +1,8 @@
+["00:00:00:00:00:00"]
+handler = "TwitterHandler"
+log_format_text = "百合だ(なぁ)?と思っ(た|ている)時に押すボタンを押しました"
+["00:00:00:00:00:00".option]
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""

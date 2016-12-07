@@ -1,0 +1,3 @@
+["00:00:00:00:00:00"]
+handler = "StreamHandler"
+log_format_func = "get_mac_address_as_decimal"
