@@ -50,7 +50,10 @@ class NekomataLogger(object):
     def send(self, param: str="") -> str:
         """Send a message using logger."""
         message = self.generate_message(param)
-        self._logger.info(message)
+        try:
+            self._logger.info(message)
+        except Exception as ex:
+            logger.warn(str(ex))
         return message
 
     def generate_message(self, param: str="") -> str:
